@@ -1,0 +1,45 @@
+.card-left {
+    position: relative;
+    background-color: var(--grey);
+    width: 90%;
+    height: 300px;
+    font-family: var(--robo);
+    margin-top: 170px;
+    left: 10%;
+    top: 10%;
+    transition: background-color 500ms;
+
+}
+
+.card-left + .card-left{
+    margin-bottom: 170px;
+}
+
+.card-left:hover{
+    cursor: pointer;
+    background-color: var(--green-dark);
+    
+}
+
+.card-left img{
+    position: absolute;
+    height: 250px;
+    top: 25px;
+    left: -30px;
+}
+
+.card-left__glass{
+    background-color: rgba(250,250,250,0.4);
+    position: absolute;
+    border: 1px solid var(--grey-trans);
+    left: 200px;
+    top: 45px;
+    height: 200px;
+    backdrop-filter: blur(20px);
+    transition: left 500ms;
+}
+
+.card-left__glass p,h1,h3{
+    margin-left: 15px;
+    margin-right: 15px;
+}

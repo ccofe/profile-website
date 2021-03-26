@@ -1,0 +1,19 @@
+:root{
+    --grey-dark: rgba(30,30,30,1);
+    --grey: rgba(40,40,40,1);
+    --grey-trans: rgba(40,40,40,0.5);
+    --grey-light: rgba(123,116,116,1);
+    --green: rgba(136, 221, 133, 1);
+    --green-dark: rgba(97, 200, 92, 1);
+    --green-dark-hover: rgba(77,180,72,1);
+    --yellow: rgba(222,246,148,1);
+    --yellow-dark: rgba(207, 236, 108, 1);
+    --blue: rgba(115,171,187,1);
+    --blue-dark: rgba(75, 133, 155, 1);
+    --black: rgba(30,30,30,1);
+    --white: rgba(255,255,255,1);
+    --white-trans: rgba(255,255,255,0.4);
+    --teal: rgb(52, 165, 122);
+    --robo: Roboto, sans-serif;
+    --poppins: Poppins, sans-serif;
+}

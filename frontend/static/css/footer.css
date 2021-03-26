@@ -1,0 +1,36 @@
+@import "colors.css";
+
+.footer{
+    background-color: var(--grey);
+    color: var(--green);
+    width: 100%;
+    font-family: var(--robo);
+}
+
+.footer p{
+    display: inline-block;
+    margin: 30px;
+}
+
+.footer__aboutme:hover, 
+.footer__aboutsite:hover{
+    cursor: pointer;
+    background-color: var(--grey-light);
+    transition: background-color ease-in 300ms;
+}
+
+.linkedin-icon{
+    color:black;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30;
+    float: right;
+}
+
+.github-icon{
+    color:black;
+    margin: 20px;
+    font-size: 30;
+    float: right;
+}
