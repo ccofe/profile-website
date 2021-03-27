@@ -1,0 +1,6 @@
+*node_modules/
+/images/*.jpg
+/uploads/*.pdf
+/media/*
+/static/*
+db.sqlite3
