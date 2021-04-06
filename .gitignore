@@ -1,4 +1,6 @@
 *node_modules/
+/frontend/package.json
+/frontend/package-lock.json
 /images/*.jpg
 /uploads/*.pdf
 /media/*
