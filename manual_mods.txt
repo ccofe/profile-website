@@ -1,0 +1,10 @@
+// Manual modifications
+
+// package.json
+use the following scripts object
+"scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  
+//
