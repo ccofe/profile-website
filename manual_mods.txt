@@ -1,4 +1,5 @@
 // Manual modifications
+chmod -x npm_installs.sh
 
 // package.json
 use the following scripts object
