@@ -20,6 +20,8 @@ npm install --save-dev style-loader
 
 npm install --save-dev css-loader
 
+npm install axios
+
 echo "================================================"
 echo "		NPM Installs Complete !!!   "
 echo "================================================"
