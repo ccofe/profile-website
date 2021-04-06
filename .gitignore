@@ -1,6 +1,8 @@
 *node_modules/
 /frontend/package.json
 /frontend/package-lock.json
+/frontend/static/frontend/main.js
+/frontend/static/frontend/main.js.LICENSE.txt
 /images/*.jpg
 /uploads/*.pdf
 /media/*
