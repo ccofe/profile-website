@@ -24,9 +24,9 @@ export default class App extends Component {
     }
     render() {
 
-        // if (this.state.jobs === null || this.state.me === null || this.state.site === null){
-        //     return <div></div>
-        // }
+        if (this.state.jobs === null || this.state.me === null || this.state.site === null){
+            return <div style='background-color:red; width:100%; height:100%;'>Returned Null States</div>
+        }
         
         
         
