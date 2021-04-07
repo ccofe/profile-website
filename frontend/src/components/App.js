@@ -12,9 +12,9 @@ export default class App extends Component {
     constructor(props){
         super(props);
         this.state = {
-            me: ['1'],
-            site: ['2'],
-            jobs: ['3']
+            me: null,
+            site: null,
+            jobs: null
         }
         
         // this.getJobs()
@@ -25,23 +25,23 @@ export default class App extends Component {
     render() {
         console.log('printing jobss')
         console.log(this.state.jobs)
-        // if (this.state.jobs === null || this.state.me === null || this.state.site === null){
-        //     return <div style='background-color:red; width:100%; height:100%;'>Returned Null States</div>
-        // }
+        if (this.state.jobs === null || this.state.me === null || this.state.site === null){
+            return <div >Returned Null States</div>
+        }
         
         
-        return (<div >Returned Null States</div>)
-        // return (
-        //     <div>
+        
+        return (
+            <div>
                 
-        //         <Modal profile={this.state.me[0]} site={this.state.site[0]}/>
-        //         <TopSection profile={this.state.me[0]}/>
-        //         <JobsSection jobs={this.state.jobs}/>
-        //         <Footer profile={this.state.me[0]} site={this.state.site[0]}/>
+                <Modal profile={this.state.me[0]} site={this.state.site[0]}/>
+                <TopSection profile={this.state.me[0]}/>
+                <JobsSection jobs={this.state.jobs}/>
+                <Footer profile={this.state.me[0]} site={this.state.site[0]}/>
                 
 
-        //     </div>
-        // )
+            </div>
+        )
     }
 // onClick={() => this.buttonPressed()}
     getJobs = () => {
