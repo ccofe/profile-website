@@ -30,7 +30,7 @@ export default class App extends Component {
         // }
         
         
-        return (<div style='background-color:red; width:100%; height:100%;'>Returned Null States</div>)
+        return (<div >Returned Null States</div>)
         // return (
         //     <div>
                 
