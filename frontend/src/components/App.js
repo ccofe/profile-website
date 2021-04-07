@@ -31,17 +31,17 @@ export default class App extends Component {
         
         
         return (<div style='background-color:red; width:100%; height:100%;'>Returned Null States</div>)
-        return (
-            <div>
+        // return (
+        //     <div>
                 
-                <Modal profile={this.state.me[0]} site={this.state.site[0]}/>
-                <TopSection profile={this.state.me[0]}/>
-                <JobsSection jobs={this.state.jobs}/>
-                <Footer profile={this.state.me[0]} site={this.state.site[0]}/>
+        //         <Modal profile={this.state.me[0]} site={this.state.site[0]}/>
+        //         <TopSection profile={this.state.me[0]}/>
+        //         <JobsSection jobs={this.state.jobs}/>
+        //         <Footer profile={this.state.me[0]} site={this.state.site[0]}/>
                 
 
-            </div>
-        )
+        //     </div>
+        // )
     }
 // onClick={() => this.buttonPressed()}
     getJobs = () => {
