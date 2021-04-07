@@ -49,7 +49,7 @@ export default class App extends Component {
         // fetch('http://localhost:8000/api/job-view').then(res => res.json()).then(res => console.log(res))
         
             
-        axios.get('api/job-view')
+        axios.get('media/api/job-view')
             .then(response => {
                 this.setState({jobs: response.data})
             })
