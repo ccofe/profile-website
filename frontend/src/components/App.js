@@ -17,16 +17,16 @@ export default class App extends Component {
             jobs: null
         }
         
-        this.getJobs()
-        this.getMe()
-        this.getSite()
+        // this.getJobs()
+        // this.getMe()
+        // this.getSite()
         
     }
     render() {
 
-        if (this.state.jobs === null || this.state.me === null || this.state.site === null){
-            return <div></div>
-        }
+        // if (this.state.jobs === null || this.state.me === null || this.state.site === null){
+        //     return <div></div>
+        // }
         
         
         
