@@ -12,9 +12,9 @@ export default class App extends Component {
     constructor(props){
         super(props);
         this.state = {
-            me: null,
-            site: null,
-            jobs: null
+            me: [''],
+            site: [''],
+            jobs: ['']
         }
         
         // this.getJobs()
