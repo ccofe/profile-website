@@ -17,9 +17,9 @@ export default class App extends Component {
             jobs: null
         }
         
-        // this.getJobs()
-        // this.getMe()
-        // this.getSite()
+        this.getJobs()
+        this.getMe()
+        this.getSite()
         
     }
     render() {
