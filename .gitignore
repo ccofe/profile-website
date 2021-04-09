@@ -7,4 +7,5 @@
 /uploads/*.pdf
 /media/*
 /static/*
+/portfolio/settings.py
 db.sqlite3
