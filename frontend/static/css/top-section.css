@@ -55,3 +55,25 @@
     cursor: pointer;
     background-color: var(--green);
 }
+
+.linkedin-icon{
+    position: absolute;
+    color:black;
+    top: 18px;
+    left: 30px;
+    /* margin-right: 0px; */
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    /* font-size: 100; */
+    /* float: left; */
+}
+
+.github-icon{
+    position: absolute;
+    top: 18px;
+    left: 60px;
+    color:black;
+    /* margin-top: 20px; */
+    /* font-size: 30; */
+    /* float: left; */
+}
