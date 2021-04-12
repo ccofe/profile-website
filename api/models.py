@@ -16,4 +16,4 @@ class Me(models.Model):
     lastName = models.CharField(max_length=20)
 
 class Site(models.Model):
-    about = models.TextField(max_length=200)
+    about = models.TextField()
